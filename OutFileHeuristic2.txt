@@ -1,0 +1,31 @@
+PROBLEM :1,2,4,6,7,0,8,3,5
+Sorted List :left,up,down
+Node 1	Action: left	State: 1,2,4,6,0,7,8,3,5	gVal: 1	Manhattan: 10	Displaced: 5
+Node 2	Action: up	State: 1,2,0,6,7,4,8,3,5	gVal: 1	Manhattan: 10	Displaced: 5
+Node 3	Action: down	State: 1,2,4,6,7,5,8,3,0	gVal: 1	Manhattan: 10	Displaced: 5
+
+PROBLEM :2,5,6,3,0,1,4,8,7
+Sorted List :left,right,up,down
+Node 1	Action: left	State: 2,5,6,0,3,1,4,8,7	gVal: 1	Manhattan: 20	Displaced: 8
+Node 2	Action: right	State: 2,5,6,3,1,0,4,8,7	gVal: 1	Manhattan: 20	Displaced: 8
+Node 3	Action: up	State: 2,0,6,3,5,1,4,8,7	gVal: 1	Manhattan: 20	Displaced: 8
+Node 4	Action: down	State: 2,5,6,3,8,1,4,0,7	gVal: 1	Manhattan: 20	Displaced: 8
+
+PROBLEM :1,2,3,7,8,0,4,5,6
+Sorted List :left,up,down
+Node 1	Action: left	State: 1,2,3,7,0,8,4,5,6	gVal: 1	Manhattan: 8	Displaced: 5
+Node 2	Action: up	State: 1,2,0,7,8,3,4,5,6	gVal: 1	Manhattan: 8	Displaced: 5
+Node 3	Action: down	State: 1,2,3,7,8,6,4,5,0	gVal: 1	Manhattan: 8	Displaced: 5
+
+PROBLEM :8,2,5,7,0,3,6,1,4
+Sorted List :left,right,up,down
+Node 1	Action: left	State: 8,2,5,0,7,3,6,1,4	gVal: 1	Manhattan: 10	Displaced: 7
+Node 2	Action: right	State: 8,2,5,7,3,0,6,1,4	gVal: 1	Manhattan: 10	Displaced: 7
+Node 3	Action: up	State: 8,0,5,7,2,3,6,1,4	gVal: 1	Manhattan: 10	Displaced: 7
+Node 4	Action: down	State: 8,2,5,7,1,3,6,0,4	gVal: 1	Manhattan: 10	Displaced: 7
+
+PROBLEM :0,5,1,6,8,2,3,5,7
+Sorted List :right,down
+Node 1	Action: right	State: 5,0,1,6,8,2,3,5,7	gVal: 1	Manhattan: 16	Displaced: 8
+Node 2	Action: down	State: 6,5,1,0,8,2,3,5,7	gVal: 1	Manhattan: 16	Displaced: 8
+
